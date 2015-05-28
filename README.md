@@ -16,6 +16,7 @@ Features
 * Opt in once for all sites
 * Implied or explicit consent
 * Works with [do not track](http://donottrack.us/)
+* Add a global policy link button
 
 Integration
 -----------
@@ -39,6 +40,9 @@ Basic usage
     	},
     	settings: {
     		consenttype: "implicit"
+    	},
+    	strings: {
+    	  link: 'globalpolicy.html'
     	}
     });
     // ]]>
