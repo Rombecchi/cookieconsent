@@ -957,6 +957,11 @@ DARK STYLE
 	background-color: #31A8F0 !important;
 }
 
+#cc-notification ul.cc-notification-buttons li a.cc-link2 
+{
+	background-color: #f4b100 !important;
+}
+
 #cc-tag
 {
 
