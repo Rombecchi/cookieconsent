@@ -117,6 +117,7 @@ var cc =
         poweredBy: "Cookie Consent plugin for the EU cookie law",
         privacyPolicy: "Privacy policy",
         learnMore: "Learn more",
+        link: "",
         seeDetails: "see details",
         seeDetailsImplicit: "change your settings",
         hideDetails: "hide details",
@@ -484,6 +485,9 @@ var cc =
 
             '<li>' +
             '<a class="cc-link" href="http://cookieconsent.silktide.com" id="cc-approve-button-allsites">' + cc.strings.allowForAllSites + '</a>' +
+            '</li>' +
+            '<li>' +
+            '<a class="cc-link2" href="' + cc.strings.link + '" id="cc-policy-link">' + cc.strings.learnMore + '</a>' +
             '</li>' +
             '<li>' +
             '<a class="cc-link" href="#" id="cc-approve-button-thissite">' + cc.strings.allowCookies + '</a>' +
